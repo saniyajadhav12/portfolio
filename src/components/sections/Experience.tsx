@@ -23,11 +23,13 @@ export function Experience() {
                     <h3 className="font-serif text-xl font-semibold sm:text-2xl">
                       {job.role}
                     </h3>
-                    <p className="font-medium text-accent">
-                      {job.company}
-                      {job.location && (
-                        <span className="text-muted"> · {job.location}</span>
-                      )}
+                    {/* Company · location; the "·" hides if the location wraps
+                        to its own line (same technique as the hero badge) */}
+                    <p className="badge-parts font-medium text-accent">
+                      <span>
+                        <span>{job.company}</span>
+                        {job.location && <span className="text-muted">{job.location}</span>}
+                      </span>
                     </p>
                   </div>
                   <p className="text-sm font-medium text-muted sm:shrink-0">

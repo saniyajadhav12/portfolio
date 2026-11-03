@@ -121,13 +121,16 @@ export const experience: Job[] = [
   {
     role: "Software Engineer Intern",
     company: "Capgemini",
-    location: "Mumbai",
-    dates: "April 2022 – May 2022",
-    show: false,
+    location: "Navi Mumbai (Remote)",
+    dates: "Mar 2022 – May 2022",
+    show: true,
     summary:
-      "Built a cross-platform iOS/Android hydration tracker with data visualizations and reminders.",
+      "Built a cross-platform React Native hydration tracker for iOS and Android, with goal setting, progress charts and reminders.",
     bullets: [
-      "Engineered a cross-platform iOS/Android hydration tracker with weekly/monthly data visualizations and reminders.",
+      "Built a hydration tracking app in React Native for iOS and Android, enabling users to set personalized intake goals and visualize progress.",
+      "Designed the complete UI in Figma, focusing on clarity, accessibility, and seamless navigation across screens.",
+      "Integrated Firebase Cloud Messaging and local notifications to remind users of hydration goals.",
+      "Developed interactive weekly and monthly intake graphs using TypeScript.",
     ],
   },
 ];
