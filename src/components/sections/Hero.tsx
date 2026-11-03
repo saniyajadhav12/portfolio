@@ -33,8 +33,12 @@ export function Hero() {
               is hidden when a part starts a new line (see .badge-parts) */}
           <span className="badge-parts">
             <span>
-              {hero.badge.split(" · ").map((part) => (
-                <span key={part}>{part}</span>
+              {hero.badge.split(" · ").map((part, i) => (
+                <span key={part}>
+                  {/* The visible "·" is decorative; screen readers get a comma */}
+                  {i > 0 && <span className="sr-only">{",\u00a0"}</span>}
+                  {part}
+                </span>
               ))}
             </span>
           </span>

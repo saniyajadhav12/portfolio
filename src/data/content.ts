@@ -106,7 +106,7 @@ export const experience: Job[] = [
   {
     role: "Software Engineer",
     company: "Capgemini",
-    location: "Mumbai",
+    location: "Navi Mumbai",
     dates: "July 2022 – July 2024",
     show: true,
     summary:

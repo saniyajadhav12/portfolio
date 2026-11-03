@@ -28,7 +28,13 @@ export function Experience() {
                     <p className="badge-parts font-medium text-accent">
                       <span>
                         <span>{job.company}</span>
-                        {job.location && <span className="text-muted">{job.location}</span>}
+                        {job.location && (
+                          <span className="text-muted">
+                            {/* Visible "·" is decorative; screen readers get a comma */}
+                            <span className="sr-only">{",\u00a0"}</span>
+                            {job.location}
+                          </span>
+                        )}
                       </span>
                     </p>
                   </div>
