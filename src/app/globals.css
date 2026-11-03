@@ -1,0 +1,391 @@
+@import "tailwindcss";
+
+/* ── Color tokens ─────────────────────────────────────────────────────────
+   Light is the base. Dark applies when the OS prefers dark (unless the
+   visitor picked light with the toggle), or when the toggle picked dark. */
+:root {
+  --bg: #f8f6f2;
+  --surface: #fffefb;
+  --ink: #1f2a2e;
+  --muted: #55615f;
+  --accent: #1f6f78;
+  --on-accent: #ffffff;
+  --tag-bg: #efe6d5;
+  --tag-ink: #175a62;
+  --line: #e6e0d5;
+  --blob: #e8cfa2;
+  --ok: #3d8a55;
+  --shadow: rgb(31 42 46 / 0.22);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #141b1d;
+    --surface: #1d2729;
+    --ink: #eaf0ef;
+    --muted: #a9b8b7;
+    --accent: #6fc3cb;
+    --on-accent: #141b1d;
+    --tag-bg: #24363a;
+    --tag-ink: #a6dde2;
+    --line: #2a383b;
+    --blob: #2e6a70;
+    --ok: #6cc28a;
+    --shadow: rgb(0 0 0 / 0.55);
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #141b1d;
+  --surface: #1d2729;
+  --ink: #eaf0ef;
+  --muted: #a9b8b7;
+  --accent: #6fc3cb;
+  --on-accent: #141b1d;
+  --tag-bg: #24363a;
+  --tag-ink: #a6dde2;
+  --line: #2a383b;
+  --blob: #2e6a70;
+  --ok: #6cc28a;
+  --shadow: rgb(0 0 0 / 0.55);
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-on-accent: var(--on-accent);
+  --color-tag-bg: var(--tag-bg);
+  --color-tag-ink: var(--tag-ink);
+  --color-line: var(--line);
+  --color-blob: var(--blob);
+  --color-ok: var(--ok);
+  --color-shadow: var(--shadow);
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-fraunces);
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Leave room for the sticky header when jumping to a section */
+section[id] {
+  scroll-margin-top: 5rem;
+}
+
+/* No double-tap zoom delay on interactive elements */
+a,
+button,
+summary {
+  touch-action: manipulation;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+/* ── Fade-in on scroll ─────────────────────────────────────────────────────
+   Only hidden when JS is running (html.js), so content is always visible
+   without JS, and never animated for reduced-motion visitors. */
+@media (prefers-reduced-motion: no-preference) {
+  .js .reveal {
+    opacity: 0;
+    transform: translateY(16px);
+    transition:
+      opacity 0.7s ease,
+      transform 0.7s ease;
+  }
+  .js .reveal.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Native <details> chevron rotation */
+details[open] .chevron {
+  transform: rotate(180deg);
+}
+details.is-closing .chevron {
+  transform: none;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Progress bar is hidden unless motion + scroll timelines are available */
+.scroll-progress {
+  display: none;
+  transform-origin: left;
+}
+
+/* ── Animations ────────────────────────────────────────────────────────────
+   Everything below is motion-only: it lives inside a no-preference query,
+   so reduced-motion visitors get the finished page with nothing moving.
+   Anything that starts hidden also requires html.js, so the page is
+   complete without JavaScript. Only transform/opacity (and SVG stroke)
+   are animated. */
+@media (prefers-reduced-motion: no-preference) {
+  /* 1. Hero entrance: staggered fade-up, once on load (~0.85s total) */
+  .hero-item {
+    animation: fade-up 0.5s cubic-bezier(0.2, 0.7, 0.3, 1) both;
+    animation-delay: calc(var(--i, 0) * 85ms);
+  }
+
+  /* Badge dot: three soft pulses after the entrance, then still */
+  .ping-3 {
+    animation: ping-out 1.2s cubic-bezier(0, 0, 0.2, 1) 0.6s 3 both;
+  }
+
+  /* 9. Waving hand: 2–3 waves after the entrance, then still */
+  .wave {
+    transform-origin: 70% 75%;
+    animation: wave 1.4s ease-in-out 0.9s 1 both;
+  }
+
+  /* 2. Section heading squiggle draws itself when revealed */
+  .js .reveal .squiggle path {
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+  }
+  .js .reveal.is-visible .squiggle path {
+    stroke-dashoffset: 0;
+    transition: stroke-dashoffset 0.6s ease-out;
+  }
+
+  /* 4. Timeline line grows with scroll (browsers with scroll-driven
+     animations; others show it fully drawn) */
+  @supports (animation-timeline: view()) {
+    .timeline::before {
+      animation: grow-y linear both;
+      animation-timeline: view(block 0% 30%);
+      animation-range: entry 0% contain 100%;
+    }
+  }
+  /* …and each dot pops in as its job card appears */
+  @supports selector(:has(*)) {
+    .js .timeline-dot {
+      transform: scale(0);
+    }
+    .js .timeline-item:has(.reveal.is-visible) .timeline-dot {
+      transform: scale(1);
+      transition: transform 0.45s cubic-bezier(0.34, 1.56, 0.64, 1) 0.15s;
+    }
+  }
+
+  /* 7. Highlights panel content slides/fades in on open, out on close */
+  details[open] > .details-body {
+    animation: fade-down 0.3s ease-out;
+  }
+  details.is-closing > .details-body {
+    animation: fade-up-out 0.2s ease-in both;
+  }
+  .chevron {
+    transition: transform 0.3s ease;
+  }
+
+  /* 8. Background shapes drift and morph very slowly */
+  .blob-a {
+    animation: drift-a 26s ease-in-out infinite alternate;
+  }
+  .blob-b {
+    animation: drift-b 32s ease-in-out infinite alternate;
+  }
+  [data-tab-hidden] .blob-a,
+  [data-tab-hidden] .blob-b {
+    animation-play-state: paused;
+  }
+
+  /* 10. Scroll progress bar: phones only, where the nav links (and their
+     scroll-spy underline) are hidden. Needs scroll-driven animations. */
+  @supports (animation-timeline: scroll()) {
+    @media (max-width: 767px) {
+      .scroll-progress {
+        display: block;
+        animation: grow-x linear both;
+        animation-timeline: scroll(root block);
+      }
+    }
+  }
+
+  /* 5. Scroll-spy underline slides in */
+  .spy-link::after {
+    transition: transform 0.3s ease;
+  }
+}
+
+/* 6. Card hover: lift + soft accent border, only on devices that hover */
+@media (hover: hover) {
+  .card-hover {
+    transition: border-color 0.25s ease;
+  }
+  .card-hover:hover {
+    border-color: color-mix(in srgb, var(--accent) 45%, var(--line));
+  }
+}
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .card-hover {
+    transition:
+      transform 0.25s ease,
+      border-color 0.25s ease;
+  }
+  .card-hover:hover {
+    transform: translateY(-3px);
+  }
+}
+
+/* Timeline line (drawn by CSS so it can grow) */
+.timeline::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 2px;
+  background: var(--line);
+  transform-origin: top;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+}
+@keyframes fade-down {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+}
+@keyframes fade-up-out {
+  to {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+}
+@keyframes ping-out {
+  from {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(2.2);
+  }
+}
+@keyframes wave {
+  0%,
+  60%,
+  100% {
+    transform: rotate(0deg);
+  }
+  10%,
+  30% {
+    transform: rotate(16deg);
+  }
+  20%,
+  40% {
+    transform: rotate(-8deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+}
+@keyframes grow-y {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+@keyframes grow-x {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@keyframes drift-a {
+  from {
+    transform: translate(0, 0) rotate(0deg) scale(1, 1);
+  }
+  to {
+    transform: translate(-40px, 30px) rotate(25deg) scale(1.08, 0.94);
+  }
+}
+@keyframes drift-b {
+  from {
+    transform: translate(0, 0) rotate(0deg) scale(1, 1);
+  }
+  to {
+    transform: translate(35px, -25px) rotate(-20deg) scale(0.94, 1.08);
+  }
+}
+
+/* ── Hero layout ───────────────────────────────────────────────────────────
+   Phones (<600px): badge, line, then greeting + photo side by side, then
+   the rest. ≥600px: text block on the left, photo in a column on the right. The empty
+   1fr rows above/below keep the text vertically centered if the photo is
+   taller than the text. */
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-areas:
+    "badge badge"
+    "line line"
+    "greet photo"
+    "tagline tagline"
+    "buttons buttons";
+}
+@media (min-width: 600px) {
+  .hero-grid {
+    grid-template-rows: 1fr repeat(5, auto) 1fr;
+    grid-template-areas:
+      ". photo"
+      "badge photo"
+      "line photo"
+      "greet photo"
+      "tagline photo"
+      "buttons photo"
+      ". photo";
+  }
+}
+
+/* Hero badge: "·" separators that never dangle at a line end. Each part
+   carries its separator in a small left gutter; the row is shifted left by
+   that gutter and clipped, so a part that starts a line hides its "·".
+   The "/ ''" gives the dot empty alt text, so screen readers skip it. */
+.badge-parts {
+  overflow: hidden;
+}
+.badge-parts > span {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -1.1em;
+}
+.badge-parts > span > span {
+  position: relative;
+  padding-left: 1.1em;
+  white-space: nowrap;
+}
+.badge-parts > span > span::before {
+  content: "·";
+  content: "·" / "";
+  position: absolute;
+  left: 0.4em;
+}
