@@ -1,5 +1,7 @@
+import Image from "next/image";
 import Link from "next/link";
 import { projects, type Project } from "@/data/content";
+import { BrowserFrame } from "../BrowserFrame";
 import { ChevronIcon, ExternalIcon, GitHubIcon } from "../icons";
 import { Reveal } from "../Reveal";
 import { RichText } from "../RichText";
@@ -22,6 +24,21 @@ function ProjectCard({ project }: { project: Project }) {
   const isSolo = project.type === "Solo";
   return (
     <article className="card-hover rounded-3xl border border-line bg-surface p-5 shadow-sm sm:p-8">
+      {/* Screenshot in a browser frame, full card width above the title.
+          Cropped to 16:9 from the top so all cards line up. */}
+      {project.image && (
+        <BrowserFrame className="mb-5 sm:mb-6">
+          <div className="relative aspect-[16/9]">
+            <Image
+              src={project.image}
+              alt={project.imageAlt ?? ""}
+              fill
+              sizes="(min-width: 1024px) 896px, calc(100vw - 80px)"
+              className="object-cover object-top"
+            />
+          </div>
+        </BrowserFrame>
+      )}
       <header className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
         <div>
           <div className="flex flex-wrap items-center gap-3">

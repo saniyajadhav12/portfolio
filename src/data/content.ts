@@ -145,6 +145,9 @@ export type Project = {
   liveUrl?: string;
   // Link to a case study page on this site, if there is one
   caseStudy?: string;
+  // Screenshot at the top of the card (a file in /public) and its description
+  image?: string;
+  imageAlt?: string;
   // Team projects only: what I personally built during the team phase
   teamWork?: string[];
   // Solo work (for team projects: what I added after the course)
@@ -178,6 +181,9 @@ export const projects: Project[] = [
       "Neon",
     ],
     github: "https://github.com/saniyajadhav12/plotline",
+    image: "/projects/plotline-hero.webp",
+    imageAlt:
+      "Plotline home page: a featured recommendation (Inception) above a row of recommended movie posters.",
     liveUrl: "https://plotline-nine.vercel.app",
     caseStudy: "/projects/plotline",
     highlights: [
@@ -215,6 +221,9 @@ export const projects: Project[] = [
       "GitHub Actions",
     ],
     github: "https://github.com/saniyajadhav12/PawConnect",
+    image: "/projects/pawconnect-hero.webp",
+    imageAlt:
+      "PawConnect home page: a \"Find your pet\" banner with a French Bulldog, above Adopt a Pet, Search for NGO and Pet Care tiles.",
     teamWork: [
       "Sign-up/login with API integration.",
       "\"Pet Salons Near You\" (Google Maps).",
@@ -250,6 +259,9 @@ export const projects: Project[] = [
       "GitHub Actions",
     ],
     github: "https://github.com/saniyajadhav12/TripSync",
+    image: "/projects/tripsync-hero.webp",
+    imageAlt:
+      "TripSync home page: a \"Your Adventures, Your Stories\" banner above trip cards for Kyoto, Moab and Lisbon.",
     teamWork: [
       "Login/Sign Up UI with backend integration.",
       "Accommodation data model.",

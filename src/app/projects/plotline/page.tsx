@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { ArchitectureDiagram } from "@/components/ArchitectureDiagram";
+import { BrowserFrame } from "@/components/BrowserFrame";
 import { ExternalIcon, GitHubIcon } from "@/components/icons";
 import { Reveal } from "@/components/Reveal";
 import { RichText } from "@/components/RichText";
@@ -34,6 +36,62 @@ function BackLink() {
     >
       <span aria-hidden="true">←</span> Back to projects
     </Link>
+  );
+}
+
+type Shot = (typeof plotline.gallery)[number];
+
+function GalleryShot({ shot, sizes, className = "" }: { shot: Shot; sizes: string; className?: string }) {
+  return (
+    <figure className={className}>
+      <BrowserFrame>
+        <Image
+          src={shot.src}
+          width={shot.width}
+          height={shot.height}
+          alt={shot.alt}
+          sizes={sizes}
+          className="block h-auto w-full"
+        />
+      </BrowserFrame>
+      <figcaption className="mt-2 text-sm text-muted">{shot.caption}</figcaption>
+    </figure>
+  );
+}
+
+/** Screenshot gallery: landscape shots stack on the left; a portrait (phone)
+ *  shot sits beside them from 1024px. Everything stacks on smaller screens. */
+function Gallery() {
+  const wide = plotline.gallery.filter((s) => s.width >= s.height);
+  const tall = plotline.gallery.filter((s) => s.width < s.height);
+  if (plotline.gallery.length === 0) return null;
+  return (
+    <section aria-labelledby="gallery-heading" className="pb-8.5 sm:pb-13">
+      <h2 id="gallery-heading" className="sr-only">
+        Screenshots
+      </h2>
+      <Reveal>
+        <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_260px] lg:items-start">
+          <div className="space-y-6">
+            {wide.map((shot) => (
+              <GalleryShot
+                key={shot.src}
+                shot={shot}
+                sizes="(min-width: 1024px) 676px, calc(100vw - 40px)"
+              />
+            ))}
+          </div>
+          {tall.map((shot) => (
+            <GalleryShot
+              key={shot.src}
+              shot={shot}
+              sizes="(min-width: 1024px) 260px, 320px"
+              className="mx-auto w-full max-w-[320px] lg:max-w-none"
+            />
+          ))}
+        </div>
+      </Reveal>
+    </section>
   );
 }
 
@@ -120,6 +178,8 @@ export default function PlotlineCaseStudy() {
             ))}
           </ul>
         </header>
+
+        <Gallery />
 
         <Section id="problem" eyebrow="01" title="The problem">
           <Reveal>

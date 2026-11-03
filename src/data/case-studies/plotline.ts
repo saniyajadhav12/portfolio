@@ -19,6 +19,33 @@ export const plotline = {
     dates: "Sept 2026 – Present",
   },
 
+  // Screenshots under the Overview (files in /public/projects). The first two
+  // are wide desktop shots; the last is a phone shot shown beside them on
+  // large screens. Set to [] to hide the gallery.
+  gallery: [
+    {
+      src: "/projects/plotline-gallery-recommendations.webp",
+      width: 1440,
+      height: 420,
+      alt: "Plotline's Recommended for You row, with posters for Tenet, No Country for Old Men, The Departed, Batman Begins and more.",
+      caption: "Personalized recommendations on the home page.",
+    },
+    {
+      src: "/projects/plotline-gallery-explanation.webp",
+      width: 1440,
+      height: 827,
+      alt: "Plotline's movie page for Tenet, with a \"Why this was recommended\" box explaining the pick.",
+      caption: "Each recommendation explains itself.",
+    },
+    {
+      src: "/projects/plotline-gallery-mobile.webp",
+      width: 780,
+      height: 1688,
+      alt: "The Tenet movie page on a phone, including the \"Why this was recommended\" box.",
+      caption: "The same page on a phone.",
+    },
+  ],
+
   problem: [
     "I wanted to learn how recommendation systems actually work by building one from scratch, from data ingestion to a deployed, tested product. I also gave myself a hard constraint: it had to run entirely on free-tier infrastructure, which is what forced the biggest performance work.",
   ],
