@@ -1,128 +1,1232 @@
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%âãÏÓ
 1 0 obj
 <<
-/F1 2 0 R /F2 3 0 R /F3 7 0 R
+/Producer (pypdf)
 >>
 endobj
 2 0 obj
 <<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
 >>
 endobj
 3 0 obj
 <<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+/Type /Catalog
+/Pages 2 0 R
+/Outlines 10 0 R
 >>
 endobj
 4 0 obj
 <<
-/A <<
-/S /URI /Type /Action /URI (mailto:jadhav.sani@northeastern.edu)
->> /Border [ 0 0 0 ] /Rect [ 266.3867 727.84 393.1736 739 ] /Subtype /Link /Type /Annot
+/Contents 18 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+/Annots [ 11 0 R 12 0 R 13 0 R 14 0 R 15 0 R 16 0 R 17 0 R ]
 >>
 endobj
 5 0 obj
 <<
-/A <<
-/S /URI /Type /Action /URI (https://www.linkedin.com/in/saniya-jadhav-a80a2b207/)
->> /Border [ 0 0 0 ] /Rect [ 405.9332 727.84 441.0872 739 ] /Subtype /Link /Type /Annot
+/Length 12474
 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 52 740 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 19 Tf 22 TL 187.994 0 Td (Saniya Jadhav) Tj T* -187.994 0 Td ET
+Q
+Q
+q
+1 0 0 1 52 739 cm
+Q
+q
+1 0 0 1 52 727.9 cm
+q
+.066667 .333333 .8 RG
+n 164.1263 .6375 m 290.9132 .6375 l S
+n 303.6728 .6375 m 338.8268 .6375 l S
+n 351.5864 .6375 m 380.5280 .6375 l S
+n 393.2876 .6375 m 493.0487 .6375 l S
+BT 1 0 0 1 0 1.8 Tm 26.95130 0 Td 11.1 TL /F1 9.3 Tf 0 0 0 rg (Boston, MA) Tj 0 0 0 rg (  |  ) Tj 0 0 0 rg (\(617\) 913-8464) Tj 0 0 0 rg (  |  ) Tj .066667 .333333 .8 rg (jadhav.sani@northeastern.edu) Tj 0 0 0 rg (  |  ) Tj .066667 .333333 .8 rg (LinkedIn) Tj 0 0 0 rg (  |  ) Tj .066667 .333333 .8 rg (GitHub) Tj 0 0 0 rg (  |  ) Tj .066667 .333333 .8 rg (saniyajadhav.vercel.app) Tj T* -26.95130 0 Td ET
+Q
+Q
+q
+1 0 0 1 52 723.9 cm
+Q
+q
+1 0 0 1 52 710.9 cm
+q
+.121569 .227451 .372549 rg
+BT 1 0 0 1 0 2.2 Tm /F2 10.8 Tf 13 TL (SUMMARY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 707.9 cm
+.121569 .227451 .372549 RG
+.8 w
+n 0 1.5 m 520 1.5 l S
+Q
+q
+1 0 0 1 52 705.9 cm
+Q
+q
+1 0 0 1 52 672.6 cm
+q
+BT 1 0 0 1 0 24.1 Tm 11.1 TL /F1 9.2 Tf 0 0 0 rg (Software Engineer with 2+ years of experience building production React and React Native applications at Capgemini and) Tj T* (SS) Tj (&) Tj (C Intralinks, focused on performance and accessibility. Builds and deploys full-stack apps with Next.js, Python, FastAPI,) Tj T* (Node.js, PostgreSQL, and LLM APIs. MS in Software Engineering Systems at Northeastern University \(Dec 2026\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 668.6 cm
+Q
+q
+1 0 0 1 52 655.6 cm
+q
+.121569 .227451 .372549 rg
+BT 1 0 0 1 0 2.2 Tm /F2 10.8 Tf 13 TL (EDUCATION) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 652.6 cm
+.121569 .227451 .372549 RG
+.8 w
+n 0 1.5 m 520 1.5 l S
+Q
+q
+1 0 0 1 52 650.6 cm
+Q
+q
+1 0 0 1 46 636.8 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 9.8 Tf 11.8 TL (Northeastern University, Boston, MA) Tj T* ET
+Q
+Q
+q
+1 0 0 1 374.4 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 9.3 Tf 11.1 TL 64.4389 0 Td (Expected Dec 2026) Tj T* -64.4389 0 Td ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 46 624.7 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.9 Tm /F3 9.2 Tf 11.1 TL (Master of Science, Software Engineering Systems) Tj T* ET
+Q
+Q
+q
+1 0 0 1 374.4 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 9.3 Tf 11.1 TL 87.1774 0 Td (GPA: 3.78/4.0) Tj T* -87.1774 0 Td ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 52 613.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.2 Tf 11.1 TL (Courses: Web Development, Object-Oriented Design, Software Engineering, Computational Skepticism for AI) Tj T* ET
+Q
+Q
+q
+1 0 0 1 46 598.8 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 9.8 Tf 11.8 TL (D.Y. Patil College of Engineering \(Pune University\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 374.4 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 9.3 Tf 11.1 TL 50.4703 0 Td (June 2018 - June 2022) Tj T* -50.4703 0 Td ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 52 587.7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.9 Tm /F3 9.2 Tf 11.1 TL (Bachelor of Engineering, Electronics and Telecommunication) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 583.7 cm
+Q
+q
+1 0 0 1 52 570.7 cm
+q
+.121569 .227451 .372549 rg
+BT 1 0 0 1 0 2.2 Tm /F2 10.8 Tf 13 TL (TECHNICAL SKILLS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 567.7 cm
+.121569 .227451 .372549 RG
+.8 w
+n 0 1.5 m 520 1.5 l S
+Q
+q
+1 0 0 1 52 565.7 cm
+Q
+q
+1 0 0 1 52 554.6 cm
+q
+BT 1 0 0 1 0 1.9 Tm 11.1 TL /F2 9.2 Tf 0 0 0 rg (Languages:) Tj /F1 9.2 Tf ( JavaScript, TypeScript, Python, SQL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 543.5 cm
+q
+BT 1 0 0 1 0 1.9 Tm 11.1 TL /F2 9.2 Tf 0 0 0 rg (Front-End:) Tj /F1 9.2 Tf ( React.js, Next.js, React Native, Redux, HTML, CSS, Tailwind CSS, Material UI, D3.js, Storybook) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 532.4 cm
+q
+BT 1 0 0 1 0 1.9 Tm 11.1 TL /F2 9.2 Tf 0 0 0 rg (Back-End & APIs:) Tj /F1 9.2 Tf ( Node.js, Express.js, FastAPI, RESTful APIs, JWT Authentication, Role-Based Access Control \(RBAC\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 521.3 cm
+q
+BT 1 0 0 1 0 1.9 Tm 11.1 TL /F2 9.2 Tf 0 0 0 rg (Databases:) Tj /F1 9.2 Tf ( PostgreSQL \(pgvector, SQLAlchemy, Alembic\), MongoDB \(Mongoose\), MySQL, Firebase) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 510.2 cm
+q
+BT 1 0 0 1 0 1.9 Tm 11.1 TL /F2 9.2 Tf 0 0 0 rg (AI & ML:) Tj /F1 9.2 Tf ( Gemini API, scikit-learn, SciPy, sentence-transformers, TF-IDF, recommendation systems) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 499.1 cm
+q
+BT 1 0 0 1 0 1.9 Tm 11.1 TL /F2 9.2 Tf 0 0 0 rg (DevOps & Testing:) Tj /F1 9.2 Tf ( Docker, GitHub Actions \(CI/CD\), Vercel, Pytest, Jest, React Testing Library, Supertest) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 488 cm
+q
+BT 1 0 0 1 0 1.9 Tm 11.1 TL /F2 9.2 Tf 0 0 0 rg (Tools:) Tj /F1 9.2 Tf ( Git, GitHub, VS Code, Xcode, Android Studio, Jira, Figma) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 484 cm
+Q
+q
+1 0 0 1 52 471 cm
+q
+.121569 .227451 .372549 rg
+BT 1 0 0 1 0 2.2 Tm /F2 10.8 Tf 13 TL (WORK EXPERIENCE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 468 cm
+.121569 .227451 .372549 RG
+.8 w
+n 0 1.5 m 520 1.5 l S
+Q
+q
+1 0 0 1 52 466 cm
+Q
+q
+1 0 0 1 46 452.2 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 0 cm
+q
+BT 1 0 0 1 0 2 Tm 11.8 TL /F2 9.8 Tf 0 0 0 rg (Software Engineer Co-op \226 SS) Tj (&) Tj (C Intralinks) Tj T* ET
+Q
+Q
+q
+1 0 0 1 374.4 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 9.3 Tf 11.1 TL 57.715 0 Td (Aug 2025 - Dec 2025) Tj T* -57.715 0 Td ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 52 441.1 cm
+q
+BT 1 0 0 1 0 1.9 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 1.9 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Built production features for enterprise-scale React and TypeScript applications within a large shared codebase.) Tj T* -0.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 52 418.9 cm
+q
+BT 1 0 0 1 0 13 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 13 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Implemented condition-based logic in authentication and account recovery workflows to support multiple authentication) Tj T* -0.5 0 Td (methods, and authored design-level documentation of system flows for cross-functional teams.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 396.7 cm
+q
+BT 1 0 0 1 0 13 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 13 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Resolved production UI and data issues across navigation flow, pagination, and data rendering; removed unused) Tj T* -0.5 0 Td (framework code to align with internal engineering standards.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 385.6 cm
+q
+BT 1 0 0 1 0 1.9 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 1.9 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Improved UI responsiveness across core workflows and fixed accessibility issues in shared Storybook web components.) Tj T* -0.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 46 370.8 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 9.8 Tf 11.8 TL (Software Engineer \226 Capgemini, Mumbai) Tj T* ET
+Q
+Q
+q
+1 0 0 1 374.4 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 9.3 Tf 11.1 TL 57.7243 0 Td (July 2022 - July 2024) Tj T* -57.7243 0 Td ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 52 348.6 cm
+q
+BT 1 0 0 1 0 13 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 13 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Optimized React Native screens \(home, cards, spending statistics\) for a major Italian bank's iOS/Android app, improving) Tj T* -0.5 0 Td (performance by 27% and boosting user retention.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 326.4 cm
+q
+BT 1 0 0 1 0 13 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 13 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Integrated RESTful APIs for real-time banking transactions, improving data retrieval efficiency and reducing processing) Tj T* -0.5 0 Td (delays.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 315.3 cm
+q
+BT 1 0 0 1 0 1.9 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 1.9 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Resolved critical production issues tracked in Jira, reducing crash rates by 51%; onboarded 3 new teammates.) Tj T* -0.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 52 304.2 cm
+q
+BT 1 0 0 1 0 1.9 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 1.9 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Enhanced accessibility, including screen reader support, improving usability by 19% and meeting accessibility standards.) Tj T* -0.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 46 289.4 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 9.8 Tf 11.8 TL (Software Engineer Intern \226 Capgemini, Mumbai) Tj T* ET
+Q
+Q
+q
+1 0 0 1 374.4 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 9.3 Tf 11.1 TL 57.2128 0 Td (Mar 2022 - May 2022) Tj T* -57.2128 0 Td ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 52 278.3 cm
+q
+BT 1 0 0 1 0 1.9 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 1.9 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Engineered a cross-platform iOS/Android hydration tracker with weekly/monthly data visualizations and reminders.) Tj T* -0.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 52 274.3 cm
+Q
+q
+1 0 0 1 52 261.3 cm
+q
+.121569 .227451 .372549 rg
+BT 1 0 0 1 0 2.2 Tm /F2 10.8 Tf 13 TL (PROJECTS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 258.3 cm
+.121569 .227451 .372549 RG
+.8 w
+n 0 1.5 m 520 1.5 l S
+Q
+q
+1 0 0 1 52 256.3 cm
+Q
+q
+1 0 0 1 46 242.5 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 0 cm
+q
+.066667 .333333 .8 RG
+n 271.7638 .85 m 300.3942 .85 l S
+n 307.9014 .85 m 351.8682 .85 l S
+BT 1 0 0 1 0 2 Tm 11.8 TL /F2 9.8 Tf 0 0 0 rg (Plotline \226 AI-Powered Movie Recommendation Platform) Tj (  |  ) Tj /F1 9.2 Tf .066667 .333333 .8 rg (GitHub) Tj 0 0 0 rg ( | ) Tj .066667 .333333 .8 rg (Live Demo) Tj T* ET
+Q
+Q
+q
+1 0 0 1 374.4 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 9.3 Tf 11.1 TL 62.8858 0 Td (Sept 2026 - Present) Tj T* -62.8858 0 Td ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 52 220.3 cm
+q
+BT 1 0 0 1 0 13 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 13 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Built and deployed a solo full-stack app \(Next.js, FastAPI, PostgreSQL\) with a hybrid recommender blending item-to-item) Tj T* -0.5 0 Td (collaborative filtering over 6.45M MovieLens ratings with TF-IDF content-based filtering.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 198.1 cm
+q
+BT 1 0 0 1 0 13 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 13 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Moved similarity computation to an offline pipeline precomputing top-50 neighbours per movie, cutting recommendation) Tj T* -0.5 0 Td (time from ~27 s to near-instant and shrinking the database from 2.45 GB to 291 MB.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 187 cm
+q
+BT 1 0 0 1 0 1.9 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 1.9 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Integrated the Gemini API for recommendation explanations, with a templated fallback and a quota-error circuit breaker.) Tj T* -0.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 52 164.8 cm
+q
+BT 1 0 0 1 0 13 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 13 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Designed a backend-for-frontend architecture with JWTs in httpOnly cookies; built rate-limited, single-use email password) Tj T* -0.5 0 Td (reset, closing a production token-exposure issue.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 153.7 cm
+q
+BT 1 0 0 1 0 1.9 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 1.9 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Wrote 97 Pytest and 74 Jest tests; GitHub Actions CI runs linting, tests, and Docker builds per PR and auto-deploys.) Tj T* -0.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 46 138.9 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 0 cm
+q
+.066667 .333333 .8 RG
+n 221.1076 .85 m 249.738 .85 l S
+BT 1 0 0 1 0 2 Tm 11.8 TL /F2 9.8 Tf 0 0 0 rg (PawConnect \226 Pet Adoption & Care Platform) Tj (  |  ) Tj /F1 9.2 Tf .066667 .333333 .8 rg (GitHub) Tj T* ET
+Q
+Q
+q
+1 0 0 1 374.4 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 9.3 Tf 11.1 TL 62.8858 0 Td (Sept 2024 - Present) Tj T* -62.8858 0 Td ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 52 116.7 cm
+q
+BT 1 0 0 1 0 13 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 13 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Built auth pages, a Google Maps salon finder, and NGO management in a 4-person team \(React, TypeScript, Node.js,) Tj T* -0.5 0 Td (MongoDB\); then solo-added JWT auth and role-based access control \(USER/NGO/ADMIN\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 94.5 cm
+q
+BT 1 0 0 1 0 13 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 13 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Hardened the Express API with rate limiting, helmet, and zod field whitelisting to block mass assignment; fixed plain-text) Tj T* -0.5 0 Td (password updates and leaked hashes.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 72.3 cm
+q
+BT 1 0 0 1 0 13 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 13 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Merged four duplicate map pages into one reusable component \(bundle 777 KB to 635 KB\); cut vulnerabilities from 38 to 0) Tj T* -0.5 0 Td (and added 19 API tests with CI.) Tj T* ET
+Q
+Q
+ 
+
+endstream
 endobj
 6 0 obj
 <<
-/A <<
-/S /URI /Type /Action /URI (https://github.com/saniyajadhav12)
->> /Border [ 0 0 0 ] /Rect [ 453.8467 727.84 482.7883 739 ] /Subtype /Link /Type /Annot
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
 >>
 endobj
 7 0 obj
 <<
-/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 8 0 obj
 <<
-/A <<
-/S /URI /Type /Action /URI (https://github.com/saniyajadhav12/plotline)
->> /Border [ 0 0 0 ] /Rect [ 317.7638 242.66 346.3942 253.7 ] /Subtype /Link /Type /Annot
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 9 0 obj
 <<
-/A <<
-/S /URI /Type /Action /URI (https://plotline-nine.vercel.app)
->> /Border [ 0 0 0 ] /Rect [ 353.9014 242.66 397.8682 253.7 ] /Subtype /Link /Type /Annot
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 10 0 obj
 <<
-/A <<
-/S /URI /Type /Action /URI (https://github.com/saniyajadhav12/PawConnect)
->> /Border [ 0 0 0 ] /Rect [ 267.1076 139.06 295.738 150.1 ] /Subtype /Link /Type /Annot
 >>
 endobj
 11 0 obj
 <<
-/Annots [ 4 0 R 5 0 R 6 0 R 8 0 R 9 0 R 10 0 R ] /Contents 15 0 R /MediaBox [ 0 0 612 792 ] /Parent 14 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 
-  /Trans <<
-
->> /Type /Page
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057github\056com\057saniyajadhav12\057plotline)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 317.7638 220.46 346.3942 231.5 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 12 0 obj
 <<
-/PageMode /UseNone /Pages 14 0 R /Type /Catalog
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057plotline\055nine\056vercel\056app)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 353.9014 220.46 397.8682 231.5 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 13 0 obj
 <<
-/Author (Saniya Jadhav) /CreationDate (D:20261101071059+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20261101071059+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (\(unspecified\)) /Title (Saniya Jadhav - Resume) /Trapped /False
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057github\056com\057saniyajadhav12\057PawConnect)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 267.1076 116.86 295.738 127.9 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 14 0 obj
 <<
-/Count 1 /Kids [ 11 0 R ] /Type /Pages
+/Type /Annot
+/Subtype /Link
+/Rect [ 216.1263 727.84 342.9132 739 ]
+/Border [ 0 0 0 ]
+/A <<
+/S /URI
+/Type /Action
+/URI (mailto\072jadhav\056sani\100northeastern\056edu)
+>>
 >>
 endobj
 15 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 4272
+/Type /Annot
+/Subtype /Link
+/Rect [ 355.6728 727.84 390.8268 739 ]
+/Border [ 0 0 0 ]
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057www\056linkedin\056com\057in\057saniya\055jadhav\055a80a2b207\057)
+>>
+>>
+endobj
+16 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [ 403.5864 727.84 432.528 739 ]
+/Border [ 0 0 0 ]
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057github\056com\057saniyajadhav12)
+>>
+>>
+endobj
+17 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [ 445.2876 727.84 545.0487 739 ]
+/Border [ 0 0 0 ]
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057saniyajadhav\056vercel\056app)
+>>
+>>
+endobj
+18 0 obj
+<<
+/Length 13047
 >>
 stream
-Gau`VgN)%.&q/)-oZLd9?',`fdc=tN=`K\2ClbE/Aubb1Oc[MK,WNHhdF?`rqfW(;DJ&*;CaZBCBGps"NROe$2eYGmIgl.f*s3M/i:U:V$km4\0PoR"fbo`\0E-9+<$NCs4IZQ8]ro#7/RRGfN6P$3b[R*]"J\c!QmU'doK9hE\+.eN!03p-$.fUBZXCai?bu(Bbl.q&hACY(n+a6h@&m'65.k[jf@5EEY)E<Bcn5&(oH%8.^.?%-;lh&=_6lB1@^'Z92a#9cDF?1t;3k_VIEOCTUO%@%g[iY&;0LR<HhP`i[aipA?I.=C[HA&?:*/pfh)#Pl;<AbkI.@Yj]<>H"W7m_[F=cuL,TW6\Ui27nrX5AOYE)r+]7'p3_pWK=p>LN+&($9-Uo3l*rVl7RAAsG4]\lqeo:V?*gHPPO\^&(QL'Qc">JGA#(@TEAB".O5dCA#0V)N;%dG8WK@2b0\#Mh4"gG/2[T'=o+H^HX4F+_Ufm0BB?,6&`Z5>3DVX$>o]26N]Y!UNHT6]BuoG6e]4D8Ls9W[e.g^"JoFX'F!#?"MRcdVV<CI"3&T+#-^!..13W@?`=\K_#W?_I<]2^L5;hQ@i9>s.&X2jGD2k?A;;g-;-lc&X7_VM?L(Ao*\qt:gKWu,/!$QdPM;Z7RM3("UnPFjDgQ?1phG[d<)C-pelMK@@S#LM\%:^#8Y00Euk<F"BVf==j1OkoI/l!4O:oj(koq4LLXLh0)lRR1_T*o(1e1oH,9Ct>"YsA3p3+Cr=_qS\Lpns-uT^BK?J7IZ_2@OE&@\aBpnMUmq3Y$n(H@sE+H,hA-u`HpDc\@RBA8(@VP<,:9_Nh"C72P\5p+'3oN8i?.6K9V72#rFaIk-&+;ST^"km_imGl'iF"RX3,`)Z;ZZ5^@-fr1qf^XF\<`&:ge//5X*!Hdc$MH>AY1V&P`=5lb%SnqB=,jAS'uoj!c;t6j\^2:I;VL/3ttu@TSq^HjA9Eo&Or'n+MqnbCcH<Ngh$l-+"W,YL/IA%Y1F(m)7b'oVMfcn7hb,B,)*!L)55Lt#>aAI9_O5(eV`;WEptS]Qq(N<H?\Da]eNmd+/.)dl=bLZ)ob$Z$q6TG4T?-[ni:UH/WW:<o;(Tc`V^BeXEHn:WV/7]QV"Ni3\V7f=r*8N)$\:o:Q*R1o,%cfK>I>@?Gu5TqRpMLRM5Wq*A2?"&["*NplZ:%G.7GHkd!nW:-`+"H5[&3L"K_`WZ^f&*bokX*b\AUS)sn^HXkg'i#l\O6KtNPj-]Wmh#?ZU,97Ui#_YksTs)nnN8k?Za(8-pa#;q"HBqa^iI.n6YOok6^hbiTG<R&Xc=$M'q!;hN\feJ&dA(4Ra*!iqF6l@^;u(pDB?^7!k):V0OtAC<V&_X+H\>D:/XuT>Qst`oeg[f+CGC@M^=@J_69Do"=`4lRKf2PTL1Ns0,W3V3T'RpUqCO*[GMq:nJm)\ES`8p;(u9lO-i)MM+Xr1;*?W9A33hNQdm@U2\I^^%(0N!(i:gB-Lqb*ci2)Z,%<cTa'W/DLeXF.R"W(F'VDH_8o#i%us)A6q&p&(k<,mI67)ZKC7LF)WjW;h[W^@@AcWhJ$L+VIQ[[@>?`qS/0_?r26GpA-R\e(3j/oNJW74,8qLl_^J'G5tRa7IZmIYCuNP,1,u`hDrqjBUPI93M'KbW%b_eI7C;o/k26N,`ncB+7>#.O?]+,59!EYg=SYq\0-]G_md.Pd`?]CT,7:S>8(V3o]S02ElE@JP:)$:BJ(,O?\ipd13eGa-D,:G4=5o<:DQ'4S&VW[DALLiSSV0#$!,s?<#a#I5DqY*hJJ>s2-Xb7l&_:(.=\j?NjUj0:[afN+H]%[)@QK`jM8bl[>Zs1EiJ>CuOYp'6(cd`-[$ns+`6l#"ao50Yka^K2A3A@E&R?bF#]@dVb^[gG9m$Iseo=q@,oD>`Pu,U\!HCFY.M"d?9:P2AHh4A(KW0m<\!1%'$_]NZ;daSVKNF.9r@>$S@)"'1jClbXU+r3?",T&j[!7U8kS>[X)V"@%/.AWRLNOJ02@El^)BdhXYA?H]o3C(/:p_(/RG,m'[cIS/!?I&LiToS[('[F0=UgMtg$\@[l$E>7ad6A(f-M@MpZII"aWu!/21cn>6iM\p@"ZaYnHf")6X?edoC2HH7>k35rP)l3UfC5tH05F."*pYmc'G9!GuK>.7*lR1tgj;3nEE:1Q;A8DN<'#ft1G`F9\D1+GV<^qgHRh/X3N<(fN[\frt7O<Xj1iF!G;.L6+7QaBYu#aE7W6%F82D4mMX4P(?[i`B,U_-*;;p-Ypq>Dq?Np\biQ7<FH"mJugq=S8.[.mTKb,smeeZQN\ciDS?((3^m48._&dfmG0boI5]O2g?2JR_;CnhppZV7E/e3q^)>:qhA(U9N4q@UgP;ensrZ00CV7Y$QeeOcY6>3:E8DNkY0]iY/JCV0hbI5-D^8`:\omL*P@R((?&nTd/U0&O8,oqHD>rJ%SLlm.QBBH1&m[ra"1\Fh.Ndgmq36#5;qn,</Y<MBAq<N%Fa/Lda;56ca&X5fCiP1fSj[j*1#Dr7b':_l:"m0EVMIWkXO`a`jle:.hSPDngQClk,&uK<O`_dMEjD@IO,;X6-MOOkIA;u@gU@^Eq9fpfZ!K*/]9?VF<Heb`[Mh#G.20K7q[._8-C.iQ/';ccOfjTdB,sn"4_L_/%+P24NK2!N)AHb/_["i1<q'Q4jKmVa=(1F0VuO.gf&9#ObN_!\8&8SAIEK0I=aahqUNE6N9j#h#!?A\#8k^)g<.,WB!b:(5QO2#1tkY@'hb6QYZ;'dXd"Lrf^<B'?NGF5-bMFY05j*$F+IH4nJ3DJ:?KZc7XV%AZ+>*_rV4>1(aU\!rrHIO/.t/s<T)!7,TL5JXOYBEDT\JL/<;D<qC7/-c=I.GVh+_*YFXh#?G?uMT0W!XRC8`Sm;:Z:2kBO@$L"Fcq[$IKZqYbb[^!O1omUAgea=]A<N7g6=@'U38(O_`O=<buiibE+]]8o:>/-(d;QMS08WpXoo+FXpn+uBKdM$L.!q^9'%NVHpEd6Kt1o5Z6n@lQHGX!+l=rXoI;f0gTeD-q]hD^>oaYrJ1kdLfF(LOlF%,H!,*o<!^<-5a`e[J9KC\?Bb*NsYr],ooRo%i/G`&H9=Q]W]#5j'UB#@m.!gdtmJOGTpSh!95k<[^%WO(&?q&&6DoI5l\jrRD2g0dg'M4OLF0WV:^6YDT;.a5WMI,EWcp;4++BfcEiTNbkNqZeJ.]c_+B>o3hGRJ0YBDbi7Q_!0i,*QM[O6]l!85'U0lZO?M`/(i7ru80@H%P)^\d[TXh2qJ=M0^5*sk(R`^F$XB&Kd&7]b'Qq\hiTlH`.?-rce]S<"fh/Y9.E&77hb;CsJrG/^\TdWRcC`1@/k6WtZ&I,:^HLG<Pq-t[(,F7b0]hRdH59"B"Y!?ol(Zl<Q`E+eZ-qAK&<i;S\<hmh[,6FPn@KC2MbM(Y5LT_flUX"YZnNYkT[8h)d$%)0Y.,a,EjGP-M-C([a7MO$DntGDh;Q&ef#70Ed9D#oAo)hkPsXB'/cHX:UZt8jkUUm&E[b]8]N>lmATUai#Q?2A_).`pe?TB:^C1L;UK5;1q3@ApE,E:n:&YPl<2].>prOlTJVG5n(7C+0]UejKN*;kMMTQ\&5L*dY@9"$+71p2U`D+GF2tG4k6>CQn6>3-tY^/^u6sRVb%X?2o9;O2cmmPaV_''^c?0b!)QbmmS0IR(,9uEM63NY^#$12DIXQER9Zf(4\-4162Y<#:<:dLdG#:_ttcs$aq0Z,VU-%9=)(\1O1%TC%pF`O86/5q[[Gu_<hKiYn3op(-cYVtn%8(8\/3hYfLQ-(fJ^@#"$jEj9!],QVQ6-q'KEQJS*"<s*rG_q+S!oQqO`A;32qaWJp@Jmd(DP[q;N;Adq(I0goW=Ton=::rcj=I&)Xd&bkWTU/q&0lBOAJ\ZrgVMGPYrTcWf&_!+9hhPa[gVJ2n-2dh:5?#[]clN5UdWU45h/%=Ls*cZnq0]S<W6&7Y7q0*,lGQ%FS-Q=p3L[5)4s._:1<$tIY6Ssr;DYe(eL!fW]'uiP*3aV`!VZ0,sSJU'GFc8nUCpE4Zj)0Nn?B"o1C=%"@MUm/YRW5:/k$dntt[`@mUP:X[%0`e=!@n)Tjmum1t"E7!T4l7@(-%H]uQ-J"!a8n8([A)KcVpV)mMnk^uj.Qjs3$#aA:+Vp5UCH.2^]Yft99^g!Dn_/E6*\<_bK"@*Z%E*Gd<cW%Y*Un]g\6HF:/YhS))ajLg(7UL&0Uij)=_ssE*iPkftR@@O>~>endstream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 52 740 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 19 Tf 22 TL 187.994 0 Td (Saniya Jadhav) Tj T* -187.994 0 Td ET
+Q
+Q
+q
+1 0 0 1 52 739 cm
+Q
+q
+1 0 0 1 52 727.9 cm
+q
+.066667 .333333 .8 RG
+n 164.1263 .6375 m 290.9132 .6375 l S
+n 303.6728 .6375 m 338.8268 .6375 l S
+n 351.5864 .6375 m 380.5280 .6375 l S
+n 393.2876 .6375 m 493.0487 .6375 l S
+BT 1 0 0 1 0 1.8 Tm 26.95130 0 Td 11.1 TL /F1 9.3 Tf 0 0 0 rg (Boston, MA) Tj 0 0 0 rg (  |  ) Tj 0 0 0 rg (\(617\) 913-8464) Tj 0 0 0 rg (  |  ) Tj .066667 .333333 .8 rg (jadhav.sani@northeastern.edu) Tj 0 0 0 rg (  |  ) Tj .066667 .333333 .8 rg (LinkedIn) Tj 0 0 0 rg (  |  ) Tj .066667 .333333 .8 rg (GitHub) Tj 0 0 0 rg (  |  ) Tj .066667 .333333 .8 rg (saniyajadhav.vercel.app) Tj T* -26.95130 0 Td ET
+Q
+Q
+q
+1 0 0 1 52 723.9 cm
+Q
+q
+1 0 0 1 52 710.9 cm
+q
+.121569 .227451 .372549 rg
+BT 1 0 0 1 0 2.2 Tm /F2 10.8 Tf 13 TL (SUMMARY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 707.9 cm
+.121569 .227451 .372549 RG
+.8 w
+n 0 1.5 m 520 1.5 l S
+Q
+q
+1 0 0 1 52 705.9 cm
+Q
+q
+1 0 0 1 52 672.6 cm
+q
+BT 1 0 0 1 0 24.1 Tm 11.1 TL /F1 9.2 Tf 0 0 0 rg (Software Engineer with 2+ years of experience building production React and React Native applications at Capgemini and) Tj T* (SS) Tj (&) Tj (C Intralinks, focused on performance and accessibility. Builds and deploys full-stack apps with Next.js, Python, FastAPI,) Tj T* (Node.js, PostgreSQL, and LLM APIs. MS in Software Engineering Systems at Northeastern University \(Dec 2026\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 668.6 cm
+Q
+q
+1 0 0 1 52 655.6 cm
+q
+.121569 .227451 .372549 rg
+BT 1 0 0 1 0 2.2 Tm /F2 10.8 Tf 13 TL (EDUCATION) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 652.6 cm
+.121569 .227451 .372549 RG
+.8 w
+n 0 1.5 m 520 1.5 l S
+Q
+q
+1 0 0 1 52 650.6 cm
+Q
+q
+1 0 0 1 46 636.8 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 9.8 Tf 11.8 TL (Northeastern University, Boston, MA) Tj T* ET
+Q
+Q
+q
+1 0 0 1 374.4 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 9.3 Tf 11.1 TL 64.4389 0 Td (Expected Dec 2026) Tj T* -64.4389 0 Td ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 46 624.7 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.9 Tm /F3 9.2 Tf 11.1 TL (Master of Science, Software Engineering Systems) Tj T* ET
+Q
+Q
+q
+1 0 0 1 374.4 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 9.3 Tf 11.1 TL 87.1774 0 Td (GPA: 3.78/4.0) Tj T* -87.1774 0 Td ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 52 613.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.9 Tm /F1 9.2 Tf 11.1 TL (Courses: Web Development, Object-Oriented Design, Software Engineering, Computational Skepticism for AI) Tj T* ET
+Q
+Q
+q
+1 0 0 1 46 598.8 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 9.8 Tf 11.8 TL (D.Y. Patil College of Engineering \(Pune University\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 374.4 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 9.3 Tf 11.1 TL 50.4703 0 Td (June 2018 - June 2022) Tj T* -50.4703 0 Td ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 52 587.7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.9 Tm /F3 9.2 Tf 11.1 TL (Bachelor of Engineering, Electronics and Telecommunication) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 583.7 cm
+Q
+q
+1 0 0 1 52 570.7 cm
+q
+.121569 .227451 .372549 rg
+BT 1 0 0 1 0 2.2 Tm /F2 10.8 Tf 13 TL (TECHNICAL SKILLS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 567.7 cm
+.121569 .227451 .372549 RG
+.8 w
+n 0 1.5 m 520 1.5 l S
+Q
+q
+1 0 0 1 52 565.7 cm
+Q
+q
+1 0 0 1 52 554.6 cm
+q
+BT 1 0 0 1 0 1.9 Tm 11.1 TL /F2 9.2 Tf 0 0 0 rg (Languages:) Tj /F1 9.2 Tf ( JavaScript, TypeScript, Python, SQL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 543.5 cm
+q
+BT 1 0 0 1 0 1.9 Tm 11.1 TL /F2 9.2 Tf 0 0 0 rg (Front-End:) Tj /F1 9.2 Tf ( React.js, Next.js, React Native, Redux, HTML, CSS, Tailwind CSS, Material UI, D3.js, Storybook) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 532.4 cm
+q
+BT 1 0 0 1 0 1.9 Tm 11.1 TL /F2 9.2 Tf 0 0 0 rg (Back-End & APIs:) Tj /F1 9.2 Tf ( Node.js, Express.js, FastAPI, RESTful APIs, JWT Authentication, Role-Based Access Control \(RBAC\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 521.3 cm
+q
+BT 1 0 0 1 0 1.9 Tm 11.1 TL /F2 9.2 Tf 0 0 0 rg (Databases:) Tj /F1 9.2 Tf ( PostgreSQL \(pgvector, SQLAlchemy, Alembic\), MongoDB \(Mongoose\), MySQL, Firebase) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 510.2 cm
+q
+BT 1 0 0 1 0 1.9 Tm 11.1 TL /F2 9.2 Tf 0 0 0 rg (AI & ML:) Tj /F1 9.2 Tf ( Gemini API, scikit-learn, SciPy, sentence-transformers, TF-IDF, recommendation systems) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 499.1 cm
+q
+BT 1 0 0 1 0 1.9 Tm 11.1 TL /F2 9.2 Tf 0 0 0 rg (DevOps & Testing:) Tj /F1 9.2 Tf ( Docker, GitHub Actions \(CI/CD\), Vercel, Pytest, Jest, React Testing Library, Supertest) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 488 cm
+q
+BT 1 0 0 1 0 1.9 Tm 11.1 TL /F2 9.2 Tf 0 0 0 rg (Tools:) Tj /F1 9.2 Tf ( Git, GitHub, VS Code, Xcode, Android Studio, Jira, Figma) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 484 cm
+Q
+q
+1 0 0 1 52 471 cm
+q
+.121569 .227451 .372549 rg
+BT 1 0 0 1 0 2.2 Tm /F2 10.8 Tf 13 TL (WORK EXPERIENCE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 468 cm
+.121569 .227451 .372549 RG
+.8 w
+n 0 1.5 m 520 1.5 l S
+Q
+q
+1 0 0 1 52 466 cm
+Q
+q
+1 0 0 1 46 452.2 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 0 cm
+q
+BT 1 0 0 1 0 2 Tm 11.8 TL /F2 9.8 Tf 0 0 0 rg (Software Engineer Co-op \226 SS) Tj (&) Tj (C Intralinks) Tj T* ET
+Q
+Q
+q
+1 0 0 1 374.4 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 9.3 Tf 11.1 TL 57.715 0 Td (Aug 2025 - Dec 2025) Tj T* -57.715 0 Td ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 52 441.1 cm
+q
+BT 1 0 0 1 0 1.9 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 1.9 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Built production features for enterprise-scale React and TypeScript applications within a large shared codebase.) Tj T* -0.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 52 418.9 cm
+q
+BT 1 0 0 1 0 13 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 13 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Implemented condition-based logic in authentication and account recovery workflows to support multiple authentication) Tj T* -0.5 0 Td (methods, and authored design-level documentation of system flows for cross-functional teams.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 396.7 cm
+q
+BT 1 0 0 1 0 13 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 13 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Resolved production UI and data issues across navigation flow, pagination, and data rendering; removed unused) Tj T* -0.5 0 Td (framework code to align with internal engineering standards.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 385.6 cm
+q
+BT 1 0 0 1 0 1.9 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 1.9 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Improved UI responsiveness across core workflows and fixed accessibility issues in shared Storybook web components.) Tj T* -0.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 46 370.8 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 9.8 Tf 11.8 TL (Software Engineer \226 Capgemini, Mumbai) Tj T* ET
+Q
+Q
+q
+1 0 0 1 374.4 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 9.3 Tf 11.1 TL 57.7243 0 Td (July 2022 - July 2024) Tj T* -57.7243 0 Td ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 52 348.6 cm
+q
+BT 1 0 0 1 0 13 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 13 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Optimized React Native screens \(home, cards, spending statistics\) for a major Italian bank's iOS/Android app, improving) Tj T* -0.5 0 Td (performance by 27% and boosting user retention.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 326.4 cm
+q
+BT 1 0 0 1 0 13 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 13 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Integrated RESTful APIs for real-time banking transactions, improving data retrieval efficiency and reducing processing) Tj T* -0.5 0 Td (delays.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 315.3 cm
+q
+BT 1 0 0 1 0 1.9 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 1.9 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Resolved critical production issues tracked in Jira, reducing crash rates by 51%; onboarded 3 new teammates.) Tj T* -0.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 52 304.2 cm
+q
+BT 1 0 0 1 0 1.9 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 1.9 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Enhanced accessibility, including screen reader support, improving usability by 19% and meeting accessibility standards.) Tj T* -0.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 46 289.4 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 9.8 Tf 11.8 TL (Software Engineer Intern \226 Capgemini, Mumbai) Tj T* ET
+Q
+Q
+q
+1 0 0 1 374.4 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 9.3 Tf 11.1 TL 57.2128 0 Td (Mar 2022 - May 2022) Tj T* -57.2128 0 Td ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 52 278.3 cm
+q
+BT 1 0 0 1 0 1.9 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 1.9 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Built a cross-platform iOS/Android hydration tracker in React Native with personalized intake goals and progress tracking.) Tj T* -0.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 52 267.2 cm
+q
+BT 1 0 0 1 0 1.9 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 1.9 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Designed the complete UI in Figma, focusing on clarity, accessibility, and seamless navigation across screens.) Tj T* -0.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 52 256.1 cm
+q
+BT 1 0 0 1 0 1.9 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 1.9 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Integrated Firebase Cloud Messaging and local notifications for reminders; built weekly/monthly intake graphs in TypeScript.) Tj T* -0.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 52 252.1 cm
+Q
+q
+1 0 0 1 52 239.1 cm
+q
+.121569 .227451 .372549 rg
+BT 1 0 0 1 0 2.2 Tm /F2 10.8 Tf 13 TL (PROJECTS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 236.1 cm
+.121569 .227451 .372549 RG
+.8 w
+n 0 1.5 m 520 1.5 l S
+Q
+q
+1 0 0 1 52 234.1 cm
+Q
+q
+1 0 0 1 46 220.3 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 0 cm
+q
+.066667 .333333 .8 RG
+n 271.7638 .85 m 300.3942 .85 l S
+n 307.9014 .85 m 351.8682 .85 l S
+BT 1 0 0 1 0 2 Tm 11.8 TL /F2 9.8 Tf 0 0 0 rg (Plotline \226 AI-Powered Movie Recommendation Platform) Tj (  |  ) Tj /F1 9.2 Tf .066667 .333333 .8 rg (GitHub) Tj 0 0 0 rg ( | ) Tj .066667 .333333 .8 rg (Live Demo) Tj T* ET
+Q
+Q
+q
+1 0 0 1 374.4 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 9.3 Tf 11.1 TL 62.8858 0 Td (Sept 2026 - Present) Tj T* -62.8858 0 Td ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 52 198.1 cm
+q
+BT 1 0 0 1 0 13 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 13 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Built and deployed a solo full-stack app \(Next.js, FastAPI, PostgreSQL\) with a hybrid recommender blending item-to-item) Tj T* -0.5 0 Td (collaborative filtering over 6.45M MovieLens ratings with TF-IDF content-based filtering.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 175.9 cm
+q
+BT 1 0 0 1 0 13 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 13 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Moved similarity computation to an offline pipeline precomputing top-50 neighbours per movie, cutting recommendation) Tj T* -0.5 0 Td (time from ~27 s to near-instant and shrinking the database from 2.45 GB to 291 MB.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 164.8 cm
+q
+BT 1 0 0 1 0 1.9 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 1.9 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Integrated the Gemini API for recommendation explanations, with a templated fallback and a quota-error circuit breaker.) Tj T* -0.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 52 142.6 cm
+q
+BT 1 0 0 1 0 13 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 13 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Designed a backend-for-frontend architecture with JWTs in httpOnly cookies; built rate-limited, single-use email password) Tj T* -0.5 0 Td (reset, closing a production token-exposure issue.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 131.5 cm
+q
+BT 1 0 0 1 0 1.9 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 1.9 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Wrote 97 Pytest and 74 Jest tests; GitHub Actions CI runs linting, tests, and Docker builds per PR and auto-deploys.) Tj T* -0.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 46 116.7 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 0 cm
+q
+.066667 .333333 .8 RG
+n 221.1076 .85 m 249.738 .85 l S
+BT 1 0 0 1 0 2 Tm 11.8 TL /F2 9.8 Tf 0 0 0 rg (PawConnect \226 Pet Adoption & Care Platform) Tj (  |  ) Tj /F1 9.2 Tf .066667 .333333 .8 rg (GitHub) Tj T* ET
+Q
+Q
+q
+1 0 0 1 374.4 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.8 Tm /F1 9.3 Tf 11.1 TL 62.8858 0 Td (Sept 2024 - Present) Tj T* -62.8858 0 Td ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 52 94.5 cm
+q
+BT 1 0 0 1 0 13 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 13 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Built auth pages, a Google Maps salon finder, and NGO management in a 4-person team \(React, TypeScript, Node.js,) Tj T* -0.5 0 Td (MongoDB\); then solo-added JWT auth and role-based access control \(USER/NGO/ADMIN\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 72.3 cm
+q
+BT 1 0 0 1 0 13 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 13 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Hardened the Express API with rate limiting, helmet, and zod field whitelisting to block mass assignment; fixed plain-text) Tj T* -0.5 0 Td (password updates and leaked hashes.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52 50.1 cm
+q
+BT 1 0 0 1 0 13 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 9 13 Tm /F1 9.2 Tf 11.1 TL .5 0 Td (Merged four duplicate map pages into one reusable component \(bundle 777 KB to 635 KB\); cut vulnerabilities from 38 to 0) Tj T* -0.5 0 Td (and added 19 API tests with CI.) Tj T* ET
+Q
+Q
+ 
+
+endstream
 endobj
 xref
-0 16
+0 19
 0000000000 65535 f 
-0000000061 00000 n 
-0000000112 00000 n 
-0000000219 00000 n 
-0000000331 00000 n 
-0000000511 00000 n 
-0000000708 00000 n 
-0000000886 00000 n 
-0000001001 00000 n 
-0000001190 00000 n 
-0000001369 00000 n 
-0000001560 00000 n 
-0000001805 00000 n 
-0000001875 00000 n 
-0000002165 00000 n 
-0000002226 00000 n 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000113 00000 n 
+0000000179 00000 n 
+0000000430 00000 n 
+0000012957 00000 n 
+0000013008 00000 n 
+0000013115 00000 n 
+0000013227 00000 n 
+0000013342 00000 n 
+0000013364 00000 n 
+0000013572 00000 n 
+0000013770 00000 n 
+0000013979 00000 n 
+0000014172 00000 n 
+0000014400 00000 n 
+0000014593 00000 n 
+0000014785 00000 n 
 trailer
 <<
-/ID 
-[<2d44085a077f8c13d13b65b754535334><2d44085a077f8c13d13b65b754535334>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 13 0 R
-/Root 12 0 R
-/Size 16
+/Size 19
+/Root 3 0 R
+/Info 1 0 R
 >>
 startxref
-6590
+27886
 %%EOF
