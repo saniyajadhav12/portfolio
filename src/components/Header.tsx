@@ -5,7 +5,8 @@ import { nav, site } from "@/data/content";
 import { CloseIcon, MenuIcon } from "./icons";
 import { ThemeToggle } from "./ThemeToggle";
 
-export function Header() {
+/** `navBase` is prepended to "#section" links ("/" on sub-pages). */
+export function Header({ navBase = "" }: { navBase?: string }) {
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState<string | null>(null);
 
@@ -63,10 +64,10 @@ export function Header() {
       </a>
       <div className="mx-auto flex h-14 max-w-5xl items-center justify-between px-5 sm:h-16 sm:px-8">
         <a
-          href="#top"
+          href={navBase ? "/" : "#top"}
           onClick={() => setOpen(false)}
           className="-ml-2 inline-flex h-11 min-w-11 items-center justify-center px-2 font-serif text-xl font-semibold tracking-tight text-ink"
-          aria-label={`${site.name}, back to top`}
+          aria-label={navBase ? `${site.name}, home` : `${site.name}, back to top`}
         >
           {site.initials}
           <span className="text-accent">.</span>
@@ -77,7 +78,7 @@ export function Header() {
             {nav.map((item) => (
               <li key={item.href}>
                 <a
-                  href={item.href}
+                  href={navBase + item.href}
                   aria-current={active === item.href ? "location" : undefined}
                   className={`spy-link relative inline-flex h-11 items-center px-2.5 transition-colors after:absolute after:inset-x-2.5 after:bottom-2 after:h-0.5 after:origin-left after:rounded-full after:bg-accent hover:text-accent ${
                     active === item.href
@@ -125,7 +126,7 @@ export function Header() {
             {nav.map((item) => (
               <li key={item.href}>
                 <a
-                  href={item.href}
+                  href={navBase + item.href}
                   onClick={() => setOpen(false)}
                   className="flex min-h-12 items-center rounded-xl px-3 font-medium text-ink hover:bg-tag-bg"
                 >

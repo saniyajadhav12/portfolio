@@ -389,3 +389,10 @@ summary::-webkit-details-marker {
   position: absolute;
   left: 0.4em;
 }
+
+/* <details> toggles whose label changes with the open state */
+details:not([open]) .when-open,
+details[open]:not(.is-closing) .when-closed,
+details.is-closing .when-open {
+  display: none;
+}

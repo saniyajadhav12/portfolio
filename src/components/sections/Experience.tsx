@@ -1,7 +1,9 @@
 import { experience } from "@/data/content";
+import { ChevronIcon } from "../icons";
 import { Reveal } from "../Reveal";
 import { RichText } from "../RichText";
 import { Section } from "../Section";
+import { SmoothDetails } from "../SmoothDetails";
 
 export function Experience() {
   const jobs = experience.filter((job) => job.show);
@@ -32,13 +34,32 @@ export function Experience() {
                     {job.dates}
                   </p>
                 </header>
-                <ul className="mt-4 list-disc space-y-2.5 pl-4 sm:mt-5 sm:pl-5 leading-relaxed text-muted marker:text-accent">
-                  {job.bullets.map((b) => (
-                    <li key={b}>
-                      <RichText text={b} />
-                    </li>
-                  ))}
-                </ul>
+                <p className="mt-3 leading-relaxed text-ink sm:mt-4">{job.summary}</p>
+
+                {/* Full bullets behind a toggle (collapsed by default) */}
+                <SmoothDetails
+                  className="mt-3"
+                  summaryClassName="-ml-1 inline-flex min-h-11 cursor-pointer list-none items-center gap-1.5 rounded-xl px-1 font-semibold text-accent hover:underline hover:underline-offset-4"
+                  summary={
+                    <>
+                      <span className="when-closed">Show details</span>
+                      <span className="when-open">Hide details</span>
+                      <span className="sr-only">
+                        {" "}
+                        for {job.role} at {job.company}
+                      </span>
+                      <ChevronIcon className="chevron" />
+                    </>
+                  }
+                >
+                  <ul className="mt-2 list-disc space-y-2.5 pl-4 leading-relaxed text-muted marker:text-accent sm:pl-5">
+                    {job.bullets.map((b) => (
+                      <li key={b}>
+                        <RichText text={b} />
+                      </li>
+                    ))}
+                  </ul>
+                </SmoothDetails>
               </article>
             </Reveal>
           </li>

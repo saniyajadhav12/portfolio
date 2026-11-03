@@ -35,7 +35,7 @@ export const hero = {
   greeting: "Hi, I'm Saniya",
   tagline:
     "Software engineer with 2+ years shipping production React and React Native apps, now building full-stack and AI-powered products.",
-  badge: "Open to full-time roles · Graduating Dec 2026",
+  badge: "Open to full-time SWE roles · Starting Dec 2026",
 };
 
 export const about = {
@@ -43,6 +43,9 @@ export const about = {
     "I'm a software engineer with 2+ years of industry experience building production React and React Native apps at Capgemini and SS&C Intralinks. Across both roles, my focus has been performance and accessibility: making screens faster and making sure they work for everyone, including people using screen readers.",
     "Now I'm pursuing an MS in Software Engineering Systems at Northeastern University in Boston, and building full-stack apps end to end with Next.js, Python/FastAPI, Node.js, PostgreSQL and LLM APIs, hardened with security, testing and CI. I graduate in December 2026 and I'm looking for full-time Software Engineer, Software Developer, Full-Stack and Frontend roles.",
   ],
+  // One closing sentence after the paragraphs (set to "" to hide)
+  closing:
+    "Outside of code, you'll usually find me listening to music, watching movies and series, or folding origami.",
   // The "through-line" cards under the About text
   highlights: [
     {
@@ -63,11 +66,23 @@ export const about = {
   ],
 };
 
+// "Now" card at the end of the About section. It only appears once at least
+// one of building / learning is filled in. Example:
+//   building: "…", learning: "…", updated: "Dec 2026"
+export const now = {
+  building: "",
+  learning: "",
+  // Month shown as "Updated …" on the card
+  updated: "",
+};
+
 export type Job = {
   role: string;
   company: string;
   location?: string;
   dates: string;
+  // One line shown on the timeline; the bullets sit behind "Show details"
+  summary: string;
   bullets: string[];
   // Set to false to hide this entry without deleting it
   show: boolean;
@@ -79,6 +94,8 @@ export const experience: Job[] = [
     company: "SS&C Intralinks",
     dates: "Aug 2025 – Dec 2025",
     show: true,
+    summary:
+      "Built production features and fixed UI, data and accessibility issues in enterprise React and TypeScript apps, including authentication and account-recovery flows.",
     bullets: [
       "Built production features for enterprise-scale React and TypeScript applications within a large shared codebase.",
       "Implemented condition-based logic in authentication and account recovery workflows to support multiple authentication methods, and authored design-level documentation of system flows for cross-functional teams.",
@@ -92,6 +109,8 @@ export const experience: Job[] = [
     location: "Mumbai",
     dates: "July 2022 – July 2024",
     show: true,
+    summary:
+      "Optimized a major Italian bank's React Native app: 27% faster screens, 51% fewer crashes, and stronger screen-reader accessibility.",
     bullets: [
       "Optimized React Native screens (home, cards, spending statistics) for a major Italian bank's iOS/Android app, **improving performance by 27%** and boosting user retention.",
       "Integrated RESTful APIs for real-time banking transactions, improving data retrieval efficiency and reducing processing delays.",
@@ -105,6 +124,8 @@ export const experience: Job[] = [
     location: "Mumbai",
     dates: "April 2022 – May 2022",
     show: false,
+    summary:
+      "Built a cross-platform iOS/Android hydration tracker with data visualizations and reminders.",
     bullets: [
       "Engineered a cross-platform iOS/Android hydration tracker with weekly/monthly data visualizations and reminders.",
     ],
@@ -119,6 +140,8 @@ export type Project = {
   tech: string[];
   github: string;
   liveUrl?: string;
+  // Link to a case study page on this site, if there is one
+  caseStudy?: string;
   // Team projects only: what I personally built during the team phase
   teamWork?: string[];
   // Solo work (for team projects: what I added after the course)
@@ -153,6 +176,7 @@ export const projects: Project[] = [
     ],
     github: "https://github.com/saniyajadhav12/plotline",
     liveUrl: "https://plotline-nine.vercel.app",
+    caseStudy: "/projects/plotline",
     highlights: [
       "Hybrid recommender: item-to-item collaborative filtering over 6.45M MovieLens ratings blended with TF-IDF content-based filtering (genres, director, cast, plot).",
       "Offline pipeline precomputing top-50 neighbours: **recommendations ~27s → near-instant**, in-memory matrices ~1.7 GB → none, **database 2.45 GB → 291 MB**, enabling free-tier deployment.",
@@ -343,6 +367,8 @@ export const contact = {
   heading: "Let's talk",
   blurb:
     "I'm looking for full-time Software Engineer, Software Developer, Full-Stack and Frontend roles. If you think I'd be a good fit for your team, I'd love to hear from you — email is the best way to reach me.",
+  // Short line shown above the contact buttons
+  availability: "Available for full-time SWE roles starting December 2026.",
   email: "jadhav.sani@northeastern.edu",
   linkedin: "https://www.linkedin.com/in/saniya-jadhav-a80a2b207/",
   github: "https://github.com/saniyajadhav12",

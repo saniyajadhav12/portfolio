@@ -23,12 +23,13 @@ Other commands:
 | Browser tab title, Google description | `site.title`, `site.description` |
 | Hero line, greeting, tagline, badge | `hero` |
 | Hero photo description (alt text) | `site.photoAlt` |
-| About paragraphs and the three "through-line" cards | `about.paragraphs`, `about.highlights` |
-| Jobs | `experience` (set `show: false` to hide an entry without deleting it) |
+| About paragraphs, closing sentence, and the three "through-line" cards | `about.paragraphs`, `about.closing`, `about.highlights` |
+| "Now" card (see below) | `now` |
+| Jobs (one-line `summary` + bullets behind "Show details") | `experience` (set `show: false` to hide an entry without deleting it) |
 | Projects (order on the page = order in the list) | `projects` |
 | Skills | `skills` |
 | Education (set `gpa: null` to hide the GPA) | `education` |
-| Email, LinkedIn, GitHub, location | `contact` |
+| Availability line, email, LinkedIn, GitHub, location | `contact` |
 | Footer | `footer` |
 
 Tips:
@@ -36,6 +37,24 @@ Tips:
 - Wrap text in `**double asterisks**` to make it **bold** in experience bullets and project highlights.
 - A project with no `liveUrl` shows no Live Demo button.
 - `teamWork` (team projects only) appears as "My team-phase work", separate from the solo highlights.
+
+### Filling in the "Now" card
+
+The card at the end of the About section is hidden while it's empty. To show it, fill in `now` in `content.ts`:
+
+```ts
+export const now = {
+  building: "What you're building right now",
+  learning: "What you're learning or reading",
+  updated: "Dec 2026", // shown as "Updated Dec 2026"
+};
+```
+
+Either `building` or `learning` on its own is enough; empty rows are skipped. Clear both to hide the card again.
+
+### Editing the Plotline case study
+
+All text for `/projects/plotline` lives in [`src/data/case-studies/plotline.ts`](src/data/case-studies/plotline.ts). The stack and links come from the Plotline entry in `content.ts`. Set `next: []` to hide the "What I'd do next" section.
 
 ### Updating the resume
 

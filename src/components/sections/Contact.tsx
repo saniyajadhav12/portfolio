@@ -19,7 +19,10 @@ export function Contact() {
             <PinIcon />
             {contact.location}
           </p>
-          <div className="relative mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+          <p className="relative mt-6 font-semibold text-accent">
+            {contact.availability}
+          </p>
+          <div className="relative mt-4 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <a
               href={`mailto:${contact.email}`}
               className="inline-flex min-h-11 w-full items-center justify-center gap-2 rounded-full bg-accent px-6 py-3 font-semibold text-on-accent shadow-md shadow-accent/20 transition-transform hover:-translate-y-0.5 sm:w-auto"

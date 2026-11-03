@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { projects, type Project } from "@/data/content";
 import { ChevronIcon, ExternalIcon, GitHubIcon } from "../icons";
 import { Reveal } from "../Reveal";
@@ -66,6 +67,16 @@ function ProjectCard({ project }: { project: Project }) {
       </header>
 
       <p className="mt-4 text-lg leading-relaxed">{project.summary}</p>
+      {project.caseStudy && (
+        <Link
+          href={project.caseStudy}
+          className="mt-1 inline-flex min-h-11 items-center gap-1.5 font-semibold text-accent underline decoration-2 underline-offset-4 hover:decoration-accent/50"
+        >
+          Read case study
+          <span aria-hidden="true">→</span>
+          <span className="sr-only"> about {project.title}</span>
+        </Link>
+      )}
 
       <ul aria-label={`${project.title} tech stack`} className="mt-5 flex flex-wrap gap-2">
         {project.tech.map((t) => (
